@@ -22076,29 +22076,29 @@ this.pA()},
 cc:function(){var u=0,t=P.Z(null),s=this,r,q,p,o,n,m,l
 var $async$cc=P.V(function(a,b){if(a===1)return P.W(b,t)
 while(true)switch(u){case 0:u=2
-return P.T(G.i2("github_data/contributors.json"),$async$cc)
+return P.T(G.i2("assets/github_data/contributors.json"),$async$cc)
 case 2:m=b
 l=J.D2(H.FI(C.a4.mp(0,B.i1(U.hX(m.e).c.a.i(0,"charset")).aD(0,m.x),null)),new F.zp(),O.ev).an(0)
 P.i3("Loaded "+l.length+" code contributions to /flutter/flutter repo.")
 r=l[0].b.length
 u=3
-return P.T(G.i2("github_data/stars.tsv"),$async$cc)
+return P.T(G.i2("assets/github_data/stars.tsv"),$async$cc)
 case 3:m=b
 q=s.dZ(B.i1(U.hX(m.e).c.a.i(0,"charset")).aD(0,m.x),r)
 u=4
-return P.T(G.i2("github_data/forks.tsv"),$async$cc)
+return P.T(G.i2("assets/github_data/forks.tsv"),$async$cc)
 case 4:m=b
 p=s.dZ(B.i1(U.hX(m.e).c.a.i(0,"charset")).aD(0,m.x),r)
 u=5
-return P.T(G.i2("github_data/commits.tsv"),$async$cc)
+return P.T(G.i2("assets/github_data/commits.tsv"),$async$cc)
 case 5:m=b
 o=s.dZ(B.i1(U.hX(m.e).c.a.i(0,"charset")).aD(0,m.x),r)
 u=6
-return P.T(G.i2("github_data/comments.tsv"),$async$cc)
+return P.T(G.i2("assets/github_data/comments.tsv"),$async$cc)
 case 6:m=b
 n=s.dZ(B.i1(U.hX(m.e).c.a.i(0,"charset")).aD(0,m.x),r)
 u=7
-return P.T(G.i2("github_data/pull_requests.tsv"),$async$cc)
+return P.T(G.i2("assets/github_data/pull_requests.tsv"),$async$cc)
 case 7:m=b
 s.dY(new F.zq(s,l,q,p,o,n,s.dZ(B.i1(U.hX(m.e).c.a.i(0,"charset")).aD(0,m.x),r)))
 return P.X(null,t)}})
